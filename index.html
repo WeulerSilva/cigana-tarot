@@ -4,27 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cigana Afrodite - Intuitiva e Médium Sensitiva. Consultas com oráculo para orientação emocional, sentimental e amorosa.">
+    <meta name="description"
+        content="Cigana Afrodite - Intuitiva e Médium Sensitiva. Consultas com oráculo para orientação emocional, sentimental e amorosa.">
     <meta name="keywords" content="Cigana Afrodite, tarot, oráculo, intuitiva, médium, sensitiva, autoconhecimento">
     <meta name="author" content="Diamante Agência">
     <title>Cigana Afrodite</title>
     <link rel="stylesheet" href="dist/output.css">
 
     <meta property="og:title" content="Cigana Afrodite">
-    <meta property="og:description" content="Intuitiva e Médium Sensitiva. Consultas com oráculo para orientação emocional, sentimental e amorosa.">
+    <meta property="og:description"
+        content="Intuitiva e Médium Sensitiva. Consultas com oráculo para orientação emocional, sentimental e amorosa.">
     <meta property="og:image" content="URL_DA_SUA_IMAGEM">
     <meta property="og:url" content="URL_DA_PAGINA">
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Cigana Afrodite">
-    <meta name="twitter:description" content="Intuitiva e Médium Sensitiva. Consultas com oráculo para orientação emocional, sentimental e amorosa.">
+    <meta name="twitter:description"
+        content="Intuitiva e Médium Sensitiva. Consultas com oráculo para orientação emocional, sentimental e amorosa.">
     <meta name="twitter:image" content="URL_DA_SUA_IMAGEM">
     <meta name="twitter:url" content="URL_DA_PAGINA">
 </head>
 
 <body>
-    <div class="w-screen h-screen bg-hero">
+    <div class="w-screen h-screen bg-hero" id="home">
         <header class="flex justify-between items-center px-4 text-letter pt-4 md:px-16 md:pt-10">
             <div class="flex flex-col leading-6 cursor-pointer md:leading-3" title="Logo">
                 <span class="uppercase font-bold text-md text-sm md:text-lg">Cigana Afrodite</span>
@@ -35,9 +38,9 @@
                 <nav>
                     <ul class="flex space-x-2 font-medium text-sm md:space-x-6 md:text-base">
                         <li class="hidden hover:border-b border-letter border-r md:border-r-0 md:flex" title="Sobre"><a
-                                href="">Sobre</a></li>
+                                href="#about">Sobre</a></li>
                         <li class="hover:border-b border-letter border-r md:border-r-0" title="Trabalhos"><a
-                                href="">Trabalhos</a></li>
+                                href="#works">Trabalhos</a></li>
                         <li class="hover:border-b border-letter border-l md:border-l-0" title="WhatsApp"><a
                                 href="">whatsapp</a></li>
                     </ul>
@@ -56,7 +59,7 @@
     </div>
 
     <section
-        class="w-screen h-screen bg-white flex flex-col justify-center items-center md:flex-row md:justify-between md:items-start">
+        class="w-screen h-screen bg-white flex flex-col justify-center items-center md:flex-row md:justify-between md:items-start" id="about">
         <div
             class="w-full pl-4 flex justify-around items-start flex-col h-[90%] md:w-[60%] md:pl-16 md:justify-between lg:w-[40%]">
             <h2 class="text-6xl font-semibold mt-4 border-b-2 border-letter md:text-8xl md:mt-10">Cigana <br />Afrodite
@@ -72,6 +75,15 @@
             <img class="h-full" src="./assets/images/cygno-aquario-foto1.jpg" alt="imagem da pessoa cygno Aquário">
         </div>
     </section>
+
+    <div class="w-screen h-[360px] bg-blue-500 flex justify-center items-center flex-col md:flex-row md:h-[230px] xl:h-[370px]">
+        <div class="w-[90%] h-full  flex justify-between items-center flex-col md:flex-row">
+            <div class="w-full h-full bg-red-700 md:w-[30%]"></div>
+            <div class="w-[30%] h-full bg-red-700 hidden md:flex"></div>
+            <div class="w-[30%] h-full bg-red-700 hidden md:flex"></div>
+        </div>
+
+    </div>
 
     <section class="w-screen bg-black flex justify-around items-center flex-col md:h-[600px] lg:h-[800px]">
         <div class="my-8 mx-4 md:my-0">
@@ -118,7 +130,7 @@
 
     </section>
 
-    <section class="flex justify-center items-center flex-col w-screen bg-hero md:h-[500px] xl:h-[800px]">
+    <section class="flex justify-center items-center flex-col w-screen bg-hero md:h-[500px] xl:h-[800px]" id="works">
         <h4 class="text-center text-6xl mt-8 mb-16 border-b border-letter italic md:text-6xl xl:text-8xl">Trabalhos</h4>
 
         <div class="flex justify-around items-center w-screen flex-col h-[1200px] md:justify-center md:flex-row md:w-[90%] md:h-[300px]
@@ -183,7 +195,7 @@
     </section>
 
     <footer class="w-screen flex justify-center items-center flex-col">
-        <h5 class="text-black font-semibold text-5xl mt-10">Entre em Contato:</h5>
+        <h5 class="w-[90%] text-black font-semibold text-5xl mt-10 md:text-center">Entre em Contato:</h5>
         <button class="w-[80%] h-[100px] my-10 bg-gray-100 rounded-3xl flex justify-between items-center transition-all 
             ease-linear hover:bg-[#25D366] group" title="Ir para WhatsApp">
             <span class="ml-6 text-4xl font-bold text-gray-700 group-hover:text-white">WhatsApp</span>
@@ -196,21 +208,25 @@
             </span>
         </button>
 
-        <div class="flex justify-between items-center text-letter w-[90%] mb-4">
+        <div class="flex justify-between items-center text-letter w-[90%] mb-4 space-x-2 md:space-x-0">
             <div class="flex flex-col leading-6 cursor-pointer md:leading-3" title="Logo">
                 <span class="uppercase font-bold text-md text-sm md:text-lg">Cigana Afrodite</span>
                 <span class="font-medium text-[12px] leading-3 md:leading-none md:text-base">Intuitiva e Médium
                     Sensitiva</span>
             </div>
 
-            <ul class="flex justify-center items-center text-base font-semibold space-x-2 md:text-lg md:space-x-4">
+            <ul class="flex justify-center items-center text-sm font-semibold space-x-4 md:text-lg md:space-x-4">
                 <li><a href="" title="Instagram">Instagram</a></li>
                 <li><a href="" title="Email">Email</a></li>
                 <li><a href="" title="Facebook">Facebook</a></li>
             </ul>
         </div>
 
-        <div class="text-sm w-screen mt-2 bg-gray-100 text-center flex justify-center items-center">© Diamante Agência – Todos os direitos reservados 2024</div>
+        <div class="text-center text-md text-letter font-medium italic border-b border-letter">
+            <a href="#home" title="Voltar para o inicio">Voltar para o Inicio</a></div>
+
+        <div class="text-sm w-screen mt-2 bg-gray-100 text-center flex justify-center items-center">© Diamante Agência –
+            Todos os direitos reservados 2024</div>
     </footer>
 </body>
 
